@@ -6,6 +6,7 @@ class ChatEngine{
         this.chatBox=$(`#${chatBoxId}`);
         this.userEmail=userEmail;
 
+        //need to fix this.
         this.socket=io.connect('http://34.207.91.54:5000');
 
 
